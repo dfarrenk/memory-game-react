@@ -1,4 +1,4 @@
-.card {
+.tarotCard {
   background: #fff;
   border-radius: 2px;
   height: 250px;
@@ -9,18 +9,18 @@
   text-align: left;
 }
 
-.card > .img-container {
+.tarotCard > .img-container {
   height: 100%;
   overflow: hidden;
   text-align: center;
 }
 
-.card > .img-container > img {
+.tarotCard > .img-container > img {
  height: 250px;
 }
 
 
-.card:hover {
+.tarotCard:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
