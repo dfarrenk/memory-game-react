@@ -11,13 +11,16 @@ class App extends Component {
     tarot,
     cardsClicked: [],
     score: 0,
+    highScore: 0
   };
   
 
   handleCardClick = (cardId) => {
     let alreadyPicked;
+    let highestScore;
+    (this.state.score > this.state.highScore) ? highestScore = this.state.score : highestScore = this.state.highScore;
     this.state.cardsClicked.includes(cardId)? alreadyPicked = true : alreadyPicked = false;
-    alreadyPicked? this.setState({tarot: this.shuffleArray(this.state.tarot)}) : this.setState({ cardsClicked: [...this.state.cardsClicked, cardId], score: this.state.score + 1, tarot: this.shuffleArray(this.state.tarot)});
+    alreadyPicked? this.setState({highScore: highestScore, tarot: this.shuffleArray(this.state.tarot), score: 0, cardsClicked: []}) : this.setState({ cardsClicked: [...this.state.cardsClicked, cardId], score: this.state.score + 1, tarot: this.shuffleArray(this.state.tarot)});
   }
   
   shuffleArray = (array) => {
@@ -36,7 +39,7 @@ class App extends Component {
       <div className="App">
         <Wrapper>
           <Title> Clicky Game! </Title>
-          <Title> Score: {this.state.score} </Title>
+          <Title> Score: {this.state.score} High Score: {this.state.highScore} </Title>
           {this.state.tarot.map(card => (
             <TarotCard
               key={card.id}
