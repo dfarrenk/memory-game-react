@@ -2,23 +2,111 @@
 	{
 		"id": 0,
 		"name": "Fool",
-		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/b/b5/Fool1a.png/revision/latest?cb=20110209180303",
-		"played": false
-	}
-]
-[
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/b/b5/Fool1a.png/revision/latest?cb=20110209180303"
+	},
 	{
 		"id": 1,
 		"name": "Magician",
-		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/6/62/Magician1a.png/revision/latest?cb=20110209180441",
-		"played": false
-	}
-]
-[
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/6/62/Magician1a.png/revision/latest?cb=20110209180441"
+	},
 	{
 		"id": 2,
 		"name": "Priestess",
-		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/a/a5/Priestess1a.png/revision/latest?cb=20110209180508",
-		"played": false
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/a/a5/Priestess1a.png/revision/latest?cb=20110209180508"
+	},
+	{
+		"id": 3,
+		"name": "Empress",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/3/30/Empress1a.png/revision/latest?cb=20110209180250"
+	},
+	{
+		"id": 4,
+		"name": "Emperor",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/7/77/Emperor1a.png/revision/latest?cb=20110209180236"
+	},
+	{
+		"id": 5,
+		"name": "Hierophant",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/8/89/Hierophant1a.png/revision/latest?cb=20110209180350"
+	},
+	{
+		"id": 6,
+		"name": "Lovers",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/2/29/Lovers1a.png/revision/latest?cb=20110209180426"
+	},
+	{
+		"id": 7,
+		"name": "Chariot",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/0/06/Chariot1a.png/revision/latest?cb=20110209180155"
+	},
+	{
+		"id": 8,
+		"name": "Strength",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/9/92/Strength1a.png/revision/latest?cb=20110209180534"
+	},
+	{
+		"id": 9,
+		"name": "Hermit",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/7/7f/Hermit1a.png/revision/latest?cb=20110209180338"
+	},
+	{
+		"id": 10,
+		"name": "Fortune",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/2/2e/Fortune1a.png/revision/latest?cb=20110209180314"
+	},
+	{
+		"id": 11,
+		"name": "Justice",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/a/ac/Justice1a.png/revision/latest?cb=20110209180415"
+	},
+		{
+		"id": 12,
+		"name": "Hanged Man",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/d/d7/Hangedman1a.png/revision/latest?cb=20110209180327"
+	},
+	{
+		"id": 13,
+		"name": "Death",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/8/8b/Death1a.png/revision/latest?cb=20110209180209"
+	},
+	{
+		"id": 14,
+		"name": "Temperance",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/5/5d/Temperance1a.png/revision/latest?cb=20110209180559"
+	},
+	{
+		"id": 15,
+		"name": "Devil",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/1/1c/Devil1a.png/revision/latest?cb=20110209180222"
+	},
+	{
+		"id": 16,
+		"name": "Tower",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/6/6c/Tower1a.png/revision/latest?cb=20110209180615"
+	},
+	{
+		"id": 17,
+		"name": "Star",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/f/fd/Star1a.png/revision/latest?cb=20110209180521"
+	},
+	{
+		"id": 18,
+		"name": "Moon",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/3/33/Moon1a.png/revision/latest?cb=20110209180454"
+	},
+	{
+		"id": 19,
+		"name": "Sun",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/a/ac/Sun1a.png/revision/latest?cb=20110209180546"
+	},
+	{
+		"id": 20,
+		"name": "Judgment",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/2/29/Judgment1a.png/revision/latest?cb=20110209180402"
+	},
+	{
+		"id": 21,
+		"name": "World",
+		"image": "https://vignette.wikia.nocookie.net/ogrebattlesaga/images/b/b0/World1a.png/revision/latest?cb=20110209180627"
 	}
 ]
