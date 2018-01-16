@@ -38,7 +38,8 @@ class App extends Component {
     return (
       <div className="App">
         <Wrapper>
-          <Title> Clicky Game! </Title>
+          <Title> Memory Game! </Title>
+          <Title> Pick all cards in sequence without selecting the same one twice. </Title>
           <Title> Score: {this.state.score} High Score: {this.state.highScore} </Title>
           {this.state.tarot.map(card => (
             <TarotCard
