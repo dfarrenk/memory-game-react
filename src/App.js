@@ -24,14 +24,15 @@ class App extends Component {
   }
   
   shuffleArray = (array) => {
-    let i = array.length - 1;
+    let newArray = [...array];
+    let i = newArray.length - 1;
     for (; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      const temp = array[i];
-      array[i] = array[j];
-      array[j] = temp;
+      const temp = newArray[i];
+      newArray[i] = newArray[j];
+      newArray[j] = temp;
     }
-    return array;
+    return newArray;
   }
   
   render() {
